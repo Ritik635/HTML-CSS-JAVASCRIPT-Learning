@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.card{
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    display: flex;
+}
+
+.leftbox{
+    padding: 30px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(70, 12, 70);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.box{
+  
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.rightbox{
+    height: 100%;
+    width: 50%;
+}
+
+.rightbox img{
+    height: 100%;
+    width: 100%;
+}
+
+.box p{
+    font-size: 0.8rem;
+}
